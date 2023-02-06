@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*header*/
+.header{
+    display: flex;
+    flex-direction: row;
+    padding: 1.5%;
+    background-color: rgb(36, 40, 43);
+    border-bottom: 5px solid rgb(18, 147, 212);;
+    padding-left: 10%;
+}
+
+
+.title{
+    margin-right: 50%;
+    color: white;
+    width: 6rem;
+}
+
+.title1{
+width: 4rem;
+display: flex;
+flex-direction: row;
+}
+
+span{
+    color: rgb(18, 147, 212);
+    margin-left: 10px;
+}
+
+menu{
+    width: 5rem;
+    
+}
+
+
+
+a{
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+
+
+.ac{
+    color: rgb(18, 147, 212);
+}
+
+.n{
+    color: white;
+}
+
+/*footer*/
+.footer{
+    background-color: rgb(18, 147, 212);
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+
+/*---------------------------------------------------------------- PAGINA 1 ----------------------------------------------------------*/
+
+
+/*parte 1*/
+
+.p1{
+    background-image: url(./images/cabecera.jpg);
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.title2{
+    font-size: 60px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+
+/*parte 2*/
+
+.p2{
+    width: 97%;
+    background-color: rgb(36, 40, 43);
+    color: white;
+    display: flex;
+    flex-direction: row ;
+    padding: 1.5%;
+}
+
+.sub{
+    margin-left: 13%;
+    margin-right: 25%;
+
+}
+
+.input{
+    padding: 8px;
+    width: 6cm;
+}
+
+.button{
+    background-color: rgb(232, 73, 29);
+    padding: 10px;
+    color: white;
+    border: none;
+}
+
+/*parte 3*/
+
+.p3{
+    width: 100%;
+    display: flex;
+    margin-bottom: 4rem;
+    
+}
+
+.pp1{
+    margin-top: 2rem;
+    margin-left: 7%;
+
+    text-align: center;
+    align-items: center;
+    width: 25%;
+}
+
+.img1{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+
+.tt{
+    margin-bottom: 1rem;
+}
+
+/*---------------------------------------------------------------- PAGINA 2 ----------------------------------------------------------*/
+/*contenedor*/
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+/*parte izquierda*/
+.left{
+    width: 57%;
+    padding-left: 7%;
+    margin-right: 3rem;
+}
+.l1{
+    margin-bottom: 1rem;
+}
+.nosotros{
+    margin-bottom: 5px;
+}
+
+
+.l2{
+background-color: rgb(71, 77, 82);
+color: white;
+padding: 1rem;
+margin-bottom: 1rem;
+}
+
+.imgn{
+    
+    width: 100%;
+    height: 200px;
+}
+
+/*parte derecha*/
+.right{
+    width: 40%;
+}
+
+
+.r1{
+    width: 47%;
+    background-color: rgb(71, 77, 82);
+    color: white;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/*---------------------------------------------------------------- PAGINA 3 ----------------------------------------------------------*/
+
+.card{
+    background-color: rgb(230, 230, 230);
+    margin-bottom: 2rem;
+    padding: 2rem;
+}
+
+.C3{
+    margin-bottom: 1rem;
+}
+
+.pp3{
+    margin-bottom: 1rem;
+}
+
+
+
+/*---------------------------------------------------------------- PAGINA 4 ----------------------------------------------------------*/
+
+
+/*parte izquierda*/
+.box{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.input1{
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.input2{
+    width: 100%;
+    height: 6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.button1{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(232, 73, 29);
+    color: white;
+    border: none;
+}
+
+/*parte derecha*/
+
+.img2{
+    width: 55%;
+}
